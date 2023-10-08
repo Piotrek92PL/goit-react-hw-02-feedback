@@ -40,6 +40,8 @@ class FeedbackApp extends Component {
             options={['good', 'neutral', 'bad']}
             onLeaveFeedback={this.handleFeedback}
                 />
+          </Section>
+        <Section title="Stats">
                 {totalFeedback > 0 ? (
           <Statistics
             good={good}
